@@ -130,6 +130,7 @@ export class Header extends React.Component {
                     <section className="header_top_right_container">
                         <section className="cart_icon_container">
                             <img src="./images/icon-cart.svg" className="cart_icon" alt="Cart" onClick={this.toggleCartDisplay} />
+                            <span>{this.props.cart.length}</span>
                         </section>
                         <section className="profile_img_container">
                             <img src="./images/image-avatar.png" className="profile_img" alt="Profile" />

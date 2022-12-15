@@ -148,8 +148,25 @@ code {
     border-color: hsl(223, 64%, 98%);
 }
 
+.cart_icon_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .cart_icon {
     cursor: pointer;
+}
+
+.cart_icon_container span {
+    position: relative;
+    right: 0.75rem;
+    bottom: 0.5rem;
+    font-size: 0.75rem;
+    background: hsl(26, 100%, 55%);
+    color: white;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .cart_product {
